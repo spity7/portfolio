@@ -3,7 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
-import Type from "./Type";
+import Type1 from "./Type1";
+import Type2 from "./Type2";
 
 function Home() {
   return (
@@ -22,11 +23,14 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> HASAN SBEITY</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
+                <Type1 />
+              </div>
+              <div style={{ padding: "0px 50px 50px", textAlign: "left" }}>
+                <Type2 />
               </div>
             </Col>
 

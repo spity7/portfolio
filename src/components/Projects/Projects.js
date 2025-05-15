@@ -8,6 +8,11 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import mila from "../../Assets/Projects/WhatsApp Image 2025-05-14 at 13.31.33_1f0bd6ca.jpg";
+import edvisors from "../../Assets/Projects/screencapture-edvisors-ai-2025-05-14-13_57_56.png";
+import urbanfitx from "../../Assets/Projects/screencapture-urbanfitx-2025-05-14-14_09_13.jpg";
+import appsido from "../../Assets/Projects/WhatsApp Image 2025-05-14 at 17.29.28_dd653f5b.jpg";
+import buytfinder from "../../Assets/Projects/oie_14164414Ejh3jzs.png";
 
 function Projects() {
   return (
@@ -23,68 +28,56 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={mila}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Mila"
+              description="A real estate web application built with React.js, Node.js, and MongoDB. It helps users discover and connect with their dream residence through a smooth and engaging experience. It aims to assist clients in finding the perfect home tailored to their needs."
+              ghLink="https://github.com/spity7/mila-react"
+              demoLink="https://milaresidence.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={edvisors}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Edvisors"
+              description="AI-powered EdTech platform built with React.js, Node.js, and MongoDB. We are committed to transforming education through innovative technology solutions that enhance learning experiences and outcomes."
+              ghLink="https://github.com/spity7/edvisors"
+              demoLink="https://edvisors.ai/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={urbanfitx}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Urban Fitx"
+              description="It specializes in delivering high-quality fit-out services that transform interior spaces into functional, inspiring, and aesthetically pleasing environments. This project was built with React.js, Node.js, and MongoDB."
+              ghLink="https://github.com/spity7/urbanFitx"
+              demoLink="https://urbanfitx.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={appsido}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Appsido"
+              description="Appsido is a cutting-edge IT services company specializing in delivering innovative solutions tailored for today's rapidly evolving digital world. This platform was built with React.js, Node.js, and MongoDB to provide robust, scalable, and modern digital services that empower businesses to innovate, grow, and excel."
+              ghLink="https://hasansbait2001@bitbucket.org/bourjihellani/appsido-web"
+              demoLink="https://www.appsido.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={buytfinder}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Buytfinder"
+              description="Buytfinder is a Lebanese digital platform that helps individuals in need find housing solutions quickly and efficiently. It connects people with property owners, brokers, and associations offering shelter or aid, creating a vital bridge between those who need help and those who can provide it. Built with Laravel and MySQL."
+              ghLink=""
+              demoLink="https://buytfinder.com/"
             />
           </Col>
         </Row>
