@@ -23,6 +23,11 @@ function AboutCard() {
             using <span className="purple">Hostinger</span> and{" "}
             <span className="purple">Render</span>.
             <br />
+            <br />I am highly professional in using{" "}
+            <span className="purple">AI</span> in my work — from accelerating
+            development and debugging to improving code quality and building
+            smarter, more efficient solutions.
+            <br />
             <br />
           </p>
 

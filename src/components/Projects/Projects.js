@@ -13,6 +13,9 @@ import edvisors from "../../Assets/Projects/screencapture-edvisors-ai-2025-05-14
 import urbanfitx from "../../Assets/Projects/screencapture-urbanfitx-2025-05-14-14_09_13.jpg";
 import appsido from "../../Assets/Projects/WhatsApp Image 2025-05-14 at 17.29.28_dd653f5b.jpg";
 import buytfinder from "../../Assets/Projects/oie_14164414Ejh3jzs.png";
+import handiz from "../../Assets/Projects/Picture3.png";
+import vertex from "../../Assets/Projects/Picture4.png";
+import usaac from "../../Assets/Projects/Picture5.png";
 
 function Projects() {
   return (
@@ -22,10 +25,18 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={handiz}
+              isBlog={false}
+              title="Handiz"
+              description="Handiz is a Next.js 15 frontend (React 19, TypeScript, Bootstrap/Sass) for an architecture and design portfolio platform. It showcases student projects — graduation work, undergraduate projects, and related content."
+              ghLink="https://github.com/spity7/handiz"
+              demoLink="https://handiz.org/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mila}
@@ -34,6 +45,28 @@ function Projects() {
               description="A real estate web application built with React.js, Node.js, and MongoDB. It helps users discover and connect with their dream residence through a smooth and engaging experience. It aims to assist clients in finding the perfect home tailored to their needs."
               ghLink="https://github.com/spity7/mila-react"
               demoLink="https://milaresidence.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vertex}
+              isBlog={false}
+              title="Vertex"
+              description="Vertex is a Next.js 13 marketing website for Vertex Engineering — an electro-mechanical engineering and consultancy company based in Tyre, Lebanon."
+              ghLink="https://github.com/spity7/vertex"
+              demoLink="https://vertex-engineering.co/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={usaac}
+              isBlog={false}
+              title="USAAC"
+              description="Accreditation is a Next.js 14 marketing and application site for the USA Accreditation Council (USAAC). It helps schools and programs learn about, apply for, and pursue USAAC accreditation."
+              ghLink="https://github.com/spity7/usaac-accreditation"
+              demoLink="https://usaac.us/"
             />
           </Col>
 
